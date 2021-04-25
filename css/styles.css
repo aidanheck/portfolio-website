@@ -131,11 +131,12 @@ section {
   width: 100%;
   margin: auto;
   padding-top: 50px;
+  
 }
 
 .profile {
   max-width: 700px;
-  margin: 0 auto;
+  margin-top: -50%;
 }
 
 .profile_portrait {
@@ -143,6 +144,7 @@ section {
   width: 250px;
   margin-right: 50px;
   border-radius: 50%;
+  border: 1px solid #222;
 }
 
 .page-header {
@@ -183,6 +185,7 @@ section {
   text-align: center;
   background-color: var(--background-color);
   padding-bottom: 3%;
+  padding-top: 5%;
 }
 
 .page-container {
@@ -209,6 +212,7 @@ textarea {
   margin: 10px 0;
   border-radius: 3px;
 }
+
 
 /* grid fallback */
 
